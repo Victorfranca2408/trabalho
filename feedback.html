@@ -1,1 +1,127 @@
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Museu dos Carros Antigos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #444;
+            color: white;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .form-container {
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .form-container h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        .form-container label {
+            font-size: 1.1em;
+            margin-bottom: 5px;
+            display: block;
+        }
+        .form-container select, .form-container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 1em;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            background-color: #444;
+            color: white;
+            padding: 10px 0;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Feedback - Museu dos Carros Antigos</h1>
+    <p>Nos diga qual o seu carro preferido!</p>
+</header>
+<div class="container">
+    <div class="form-container">
+        <h2>Carro Brasileiro</h2>
+        <form>
+            <label for="carro-brasil">Escolha seu carro favorito:</label>
+            <select id="carro-brasil" name="carro-brasil">
+                <option value="Romi">Romi-Isetta</option>
+                <option value="jeep">Jeep Willys</option>
+                <option value="Sim">Simca Chambord</option>
+            </select>
+            <input type="submit" value="Enviar Feedback">
+        </form>
+    </div>
+    <div class="form-container">
+        <h2>Carro Italiano</h2>
+        <form>
+            <label for="carro-italia">Escolha seu carro favorito:</label>
+            <select id="carro-italia" name="carro-italia">
+                <option value="ferrari-308">Ferrari 308</option>
+                <option value="lamborghini-countach">Lamborghini Countach</option>
+                <option value="fiat-500">Fiat 500</option>
+            </select>
+            <input type="submit" value="Enviar Feedback">
+        </form>
+    </div>
+    <div class="form-container">
+        <h2>Carro Alemão</h2>
+        <form>
+            <label for="carro-alemanha">Escolha seu carro favorito:</label>
+            <select id="carro-alemanha" name="carro-alemanha">
+                <option value="volkswagen-beetle">Volkswagen Beetle</option>
+                <option value="mercedes-benz-300sl">Mercedes-Benz 300SL</option>
+                <option value="porsche-911">Porsche 911</option>
+            </select>
+            <input type="submit" value="Enviar Feedback">
+        </form>
+    </div>
+    <div class="form-container">
+        <h2>Carro Estadunidense</h2>
+        <form>
+            <label for="carro-eua">Escolha seu carro favorito:</label>
+            <select id="carro-eua" name="carro-eua">
+                <option value="chevrolet-corvette">Chevrolet Corvette</option>
+                <option value="mustang">Ford Mustang</option>
+                <option value="dodge-charger">Dodge Charger</option>
+            </select>
+            <input type="submit" value="Enviar Feedback">
+        </form>
+    </div>
+</div>
+<footer>
+    <p>&copy; 2025 Museu dos Carros Antigos - Todos os direitos reservados.</p>
+    <p><a href="login.html">Voltar à página inicial</a></p>
+</footer>
+</body>
+</html>
